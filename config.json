@@ -1,0 +1,15 @@
+{
+    "TargetValue":40.0,
+    "CustomizedMetricSpecification":{
+       "MetricName":"MemoryUtilization",
+       "Namespace":"ASG_Memory",
+       "Dimensions":[
+          {
+             "Name":"AutoScalingGroupName",
+             "Value":"[Your ASG Name]"
+          }
+       ],
+       "Statistic":"Average",
+       "Unit":"Percent"
+    }
+ }
